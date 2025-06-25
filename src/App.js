@@ -1,8 +1,12 @@
 import React from 'react';
-import GridPage from './components/Grid';
+import InternshipShowcase from './pages/InternshipShowcase';
 
 function App() {
-  return <GridPage />;
+  return (
+    <div className="App">
+      <InternshipShowcase />
+    </div>
+  );
 }
 
 export default App;
